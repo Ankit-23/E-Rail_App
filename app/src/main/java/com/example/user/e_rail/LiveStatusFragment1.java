@@ -277,7 +277,7 @@ public class LiveStatusFragment1 extends Fragment implements View.OnClickListene
 
     public boolean checkResponse(int code){
         boolean isValid=true;
-        Log.e("kya ho gya ",String.valueOf(code));
+        Log.e("code ",String.valueOf(code));
 
         if(code!=200)
         {
