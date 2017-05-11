@@ -37,7 +37,7 @@ which provides various features like checking of live runnung status, seat avail
   * JSON parsing
   * Railway APIs
   * Expandable listvew
-  * Asynchronously network calls using -AsyncTask and volley
+  * Asynchronous network calls using -AsyncTask and volley
   * AlertDialog
   * ProgressDialog
 
