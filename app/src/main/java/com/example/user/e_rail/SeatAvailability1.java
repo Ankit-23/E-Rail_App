@@ -468,7 +468,7 @@ public class SeatAvailability1 extends Fragment{
 
     public boolean checkResponse(int code){
         boolean isValid=true;
-        Log.e("kya ho gya ",String.valueOf(code));
+        Log.e("code ",String.valueOf(code));
 
         if(code!=200)
         {
