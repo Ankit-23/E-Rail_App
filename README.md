@@ -1,11 +1,11 @@
 # E-Rail_App
 
 **Importnant Notes**
-- 1.Erail.apk file is included in this project which can be used to directly install this app on the phone.
-- 2.It is based on indian railway api, so daily request quota is limited. If the request quota is exceeded then new api key can be used provided in DataClass/ApiKey.
+- Erail.apk file is included in this project which can be used to directly install this app on the phone.
+- It is based on indian railway api, so daily request quota is limited. If the request quota is exceeded then new api key can be used provided in DataClass/ApiKey.
   Just replace string API_KEY with the provided api key list in the same class.
 
-- 3.dependencies required (needed if the app is installed using android studio)
+- dependencies required (needed if the app is installed using android studio)
   - compile 'com.android.support:appcompat-v7:25.1.1'
   - compile 'com.android.support:design:25.1.1'
   - compile 'com.android.support:support-v4:25.1.1'
