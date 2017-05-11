@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.e_rail.Aboutus">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="70dp"
+       android:gravity="center">
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@drawable/ank"
+          android:elevation="5dp"
+         />
+
+   </LinearLayout>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Ankit Kumar" android:gravity="center"
+       android:layout_marginTop="10dp"
+       android:textColor="@android:color/black"
+       android:textAllCaps="true"
+       android:textStyle="bold"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="ankit13103605@gmail.com"
+       android:gravity="center"
+       android:textColor="@android:color/holo_blue_light"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:padding="4dp"
+      android:id="@+id/aboutus"
+       android:textStyle="italic"
+       android:textColor="@android:color/black"/>
+
+
+
+
+
+
+</LinearLayout>

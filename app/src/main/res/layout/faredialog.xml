@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="3dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/trainInfo"
+        android:text="trainname+trainNo"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark"
+        android:textAllCaps="true"
+        android:background="@android:color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="source"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="DOJ"
+            android:gravity="center"
+            android:id="@+id/date"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Destination"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="source"
+            android:textColor="@android:color/white"
+            android:background="@color/mycolor4"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:id="@+id/source"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/train"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Destination"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:id="@+id/destination"
+            android:background="@color/mycolor4"
+            />
+
+
+
+    </LinearLayout>
+
+   <TextView
+       android:paddingTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/fare"
+       android:background="@color/orange"
+       android:textStyle="bold"
+       android:textColor="@android:color/black"
+       android:gravity="center"
+
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CLOSE[X]"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="normal"
+            android:id="@+id/close"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

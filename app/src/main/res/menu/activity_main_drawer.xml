@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_live_status"
+            android:icon="@drawable/search"
+            android:title="Live Status" />
+        <item
+            android:id="@+id/nav_seat_availability"
+            android:icon="@drawable/news"
+            android:title="Seat Availability" />
+        <item
+            android:id="@+id/nav_trailn_info"
+            android:icon="@drawable/sorting"
+            android:title="Train between Stations" />
+        <item
+            android:id="@+id/nav_fare_info"
+            android:icon="@drawable/coins"
+            android:title="Check Fare" />
+        <item
+            android:id="@+id/pnr_status"
+            android:title="Pnr Status"
+            android:icon="@drawable/report"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/aboutus"
+                android:icon="@drawable/user"
+                android:title="About us" />
+        </menu>
+    </item>
+
+</menu>

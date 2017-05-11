@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.example.user.e_rail.LiveStatusFragment1"
+    android:background="@color/mycolor3"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.TextInputLayout
+         android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+       android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:id="@+id/inputlayouttrainno"
+        android:focusableInTouchMode="true"
+        app:hintEnabled="false"
+        android:elevation="8dp"
+        >
+       <EditText
+           android:background="@android:color/white"
+           android:id="@+id/trainNotext"
+           android:gravity="center"
+           android:textColor="@android:color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:hint="@string/edittext_hint"
+           android:inputType="number"
+           android:maxLength="5"
+           
+           />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/inputlayouttrainno"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="search train"
+        android:layout_centerInParent="true"
+        android:textAllCaps="true"
+        android:id="@+id/searchbtn"
+
+        />
+
+<LinearLayout
+    android:layout_centerInParent="true"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:id="@+id/select_station"
+    android:orientation="horizontal"
+    android:layout_below="@id/searchbtn"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="2dp"
+
+
+    >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/select_station_text"
+            android:text="select station "
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:background="@color/mycolor4"
+
+
+
+            />
+
+    <Spinner
+
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:id="@+id/select_station_spinner"
+        android:prompt="@string/select_station"
+        ></Spinner>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_centerInParent="true"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:id="@+id/dojlayout"
+    android:layout_below="@id/select_station"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+
+    >
+    <TextView
+       android:gravity="center"
+        android:textSize="14sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="Select Date"
+        android:id="@+id/doj"
+        android:textAllCaps="true"
+        android:textStyle="normal"
+        android:textColor="@android:color/white"
+        android:background="@color/mycolor4"
+        />
+
+    <Spinner
+
+
+
+        android:layout_below="@id/inputlayouttrainno"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/doj"
+        android:id="@+id/spinnderdate"
+
+        ></Spinner>
+</LinearLayout>
+
+    
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/dojlayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Check status"
+        android:layout_centerInParent="true"
+        android:id="@+id/checkStatus"
+        android:textAllCaps="true"
+
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/checkStatus"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Clear input"
+        android:layout_centerInParent="true"
+        android:textAllCaps="true"
+        android:id="@+id/clearbtn"
+
+        />
+
+
+
+</RelativeLayout>

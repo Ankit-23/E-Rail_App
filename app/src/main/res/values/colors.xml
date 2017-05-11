@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tripleday">#008080</color>
+    <color name="mycolor">#20B2AA</color>
+    <color name="mycolor2">#0077C3</color>
+    <color name="mycolor3">#E3E3E8</color>
+    <color name="mycolor4">#311b92</color>
+    #fff9c4
+    <color name="mycolor5">#fff9c4</color>
+    <color name="mycolor6">#e0e0e0</color>
+    <color name="mycolor7">#ffecb3</color>
+    <color name="mycolor8">#bdbdbd</color>
+    <color name="green">#64dd17</color>
+    <color name="orange">#ff7043</color>
+    <color name="red">#e53935</color>
+    <color name="teal">#84ffff</color>
+
+
+
+
+
+
+</resources>

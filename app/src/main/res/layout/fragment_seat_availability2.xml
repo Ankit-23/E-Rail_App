@@ -1,0 +1,234 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.user.e_rail.SeatAvailability2"
+    android:background="@color/mycolor6"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+       <LinearLayout
+           android:layout_gravity="center"
+           android:layout_width="380dp"
+           android:layout_height="500dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:text="train info"
+               android:gravity="center"
+               android:textStyle="bold"
+               android:textColor="@android:color/holo_green_dark"
+               android:textAllCaps="true"
+               android:background="@android:color/white"
+               android:id="@+id/trainInfo"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:layout_marginTop="10dp"
+               android:background="@android:color/white">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="2"
+                   android:text="source"
+                   android:gravity="center"
+                   android:textColor="@color/mycolor4"
+                   android:textAllCaps="true"
+                   android:id="@+id/source"
+                   />
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="TO"
+                   android:textColor="@android:color/white"
+                   android:background="@android:color/black"
+                   android:gravity="center"
+                   />
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="match_parent"
+                   android:text="Destination"
+                   android:textAllCaps="true"
+                   android:gravity="center"
+                   android:textColor="@color/mycolor4"
+                   android:id="@+id/destination"
+                   />
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginTop="10dp"
+               android:background="@color/mycolor4">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="date"
+                   android:textColor="@android:color/white"
+                   android:textAllCaps="true"
+                   android:gravity="center"
+                   />
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="Availability"
+                   android:textColor="@android:color/white"
+                   android:textAllCaps="true"
+                   android:gravity="center"
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:background="@android:color/white">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="date1"
+                   android:textColor="@android:color/black"
+                   android:gravity="center"
+                   android:id="@+id/date1"/>
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="status"
+                   android:textAllCaps="true"
+                   android:textColor="@android:color/holo_red_dark"                   android:gravity="center"
+                   android:id="@+id/status1"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:background="@android:color/white">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="date1"
+                   android:textColor="@android:color/black"
+                   android:gravity="center"
+                   android:id="@+id/date2"/>
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="status"
+                   android:textAllCaps="true"
+                   android:textColor="@android:color/holo_red_dark"                   android:gravity="center"
+                   android:id="@+id/status2"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:background="@android:color/white">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="date1"
+                   android:textColor="@android:color/black"
+                   android:gravity="center"
+                   android:id="@+id/date3"/>
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="status"
+                   android:textAllCaps="true"
+                   android:textColor="@android:color/holo_red_dark"                   android:gravity="center"
+                   android:id="@+id/status3"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:background="@android:color/white">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="date1"
+                   android:textColor="@android:color/black"
+                   android:gravity="center"
+                   android:id="@+id/date4"/>
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="status"
+                   android:textAllCaps="true"
+                   android:textColor="@android:color/holo_red_dark"                   android:gravity="center"
+                   android:id="@+id/status4"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:background="@android:color/white">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="date1"
+                   android:textColor="@android:color/black"
+                   android:gravity="center"
+                   android:id="@+id/date5"/>
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="status"
+                   android:textAllCaps="true"
+                   android:gravity="center"
+                   android:textColor="@android:color/holo_red_dark"
+                   android:id="@+id/status5"/>
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:background="@android:color/white">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="date1"
+                   android:textColor="@android:color/black"
+                   android:gravity="center"
+                   android:id="@+id/date6"/>
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="status"
+                   android:textAllCaps="true"
+                   android:textColor="@android:color/holo_red_dark"
+                   android:gravity="center"
+                   android:id="@+id/status6"/>
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+
+</RelativeLayout>

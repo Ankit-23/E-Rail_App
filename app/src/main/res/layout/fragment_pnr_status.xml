@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.user.e_rail.PnrStatus"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- TODO: Update blank fragment layout -->
+  <android.support.design.widget.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+      app:hintEnabled="false"
+      android:layout_marginTop="10dp"
+      >
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:hint="Enter 10-digit Pnr No"
+          android:id="@+id/pnr_status"
+          android:maxLength="10"
+          android:minLines="1"
+          android:inputType="number"
+
+          />
+
+
+      </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Check Status"
+        android:layout_gravity="center"
+        android:id="@+id/check_status"
+        android:elevation="2dp"
+        android:textColor="@android:color/white"
+        android:background="@color/mycolor4"/>
+
+    <Button
+        android:textColor="@android:color/white"
+        android:background="@color/mycolor4"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Clear Input"
+        android:layout_gravity="center"
+        android:id="@+id/clearAll"
+        android:elevation="2dp"/>
+
+</LinearLayout>

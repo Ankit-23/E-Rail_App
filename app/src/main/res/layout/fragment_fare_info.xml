@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.user.e_rail.SeatAvailability1"
+    android:layout_marginTop="20dp"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <EditText
+
+                    android:imeOptions="actionDone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Train No"
+                    android:maxLength="5"
+                    android:inputType="number"
+                    android:id="@+id/trainNotext"/>
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Search"
+
+
+                android:id="@+id/search"
+                android:textAllCaps="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="true"
+            android:id="@+id/name"
+            android:gravity="center"
+            android:text="train name"
+            android:textColor="@android:color/holo_green_dark"
+            android:background="@color/mycolor6"
+            android:textStyle="bold"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Source"
+                android:textAllCaps="true"
+                android:background="@color/mycolor4"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_weight="1"
+                android:id="@+id/source_spinner"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Destination"
+                android:textAllCaps="true"
+                android:background="@color/mycolor4"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_weight="1"
+                android:id="@+id/destination_spinner"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Select Age"
+                android:textAllCaps="true"
+                android:background="@color/mycolor4"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:id="@+id/age_spinner"></Spinner>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Select quota"
+                android:textAllCaps="true"
+                android:background="@color/mycolor4"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:id="@+id/quota_spinner"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:text="select date"
+                android:textColor="@android:color/white"
+                android:background="@color/mycolor4"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/date_text"
+                android:hint="DD-MM-YYYY"
+                android:textIsSelectable="true"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="check Fare"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:id="@+id/check"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
