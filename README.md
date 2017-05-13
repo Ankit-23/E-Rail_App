@@ -4,6 +4,10 @@
 - Erail.apk file is included in this project which can be used to directly install this app on the phone.
 - It is based on indian railway api, so daily request quota is limited. If the request quota is exceeded then new api key can be used     provided in the DataClass/ApiKey. Just replace string API_KEY with the provided api key list in the same class.
 
+- sample inputs
+  - train no-12367(vikramshila exp), 22405(garib rath), 12368, 22406
+  - station codes-BGP(bhagalpur jn), ANVT(Anand vihar terminal),PNBE(patna jn.)
+
 - dependencies required (needed if the app is installed using android studio)
   - compile 'com.android.support:appcompat-v7:25.1.1'
   - compile 'com.android.support:design:25.1.1'
